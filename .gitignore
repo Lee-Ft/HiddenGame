@@ -1,6 +1,8 @@
 # Visual Studio 2015 user specific files
+/WindowsNoEditor
+/Content
 .vs/
-
+/Binaries
 # Visual Studio 2015 database file
 *.VC.db
 
@@ -54,9 +56,9 @@ SourceArt/**/*.tga
 Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
-!Build/*/
+Build/*/
 Build/*/**
-!Build/*/PakBlacklist*.txt
+Build/*/PakBlacklist*.txt
 
 # Don't ignore icon files in Build
 !Build/**/*.ico
